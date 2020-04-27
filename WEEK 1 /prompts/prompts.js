@@ -22,13 +22,7 @@ if (userInput == randNum) {
             }
         }
 
-        let name = "";
-        while (true) {
-            name = prompt("Please enter your name")
-            if (name != "") {
-                break
-            }
-        }
+   
 
 
 
