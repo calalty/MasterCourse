@@ -1,6 +1,6 @@
 # MasterCourse
 
-This is my 12 weeks at CodeNation.
+This is my 12 weeks at CodeNation:
 
-- [x] Week 1 - JavaScript Fundamentals
+- [x] Week 1 - JavaScript
 - [ ] Week 2 - HTML
