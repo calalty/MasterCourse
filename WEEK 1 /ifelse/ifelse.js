@@ -179,9 +179,9 @@ Create an if statement that checks if the last letter is the same as the first.
 If it is return true, otherwise return false.
 */
 
-let word = "worw"
+let word = "word"
 let firstLetter = word.charAt(0);
-let lastLetter = word.charAt(3)
+let lastLetter = word.charAt(word.length -1)
 if (firstLetter == lastLetter) {
     console.log(true)
 }

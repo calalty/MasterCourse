@@ -106,6 +106,35 @@ balance()
 
 // 7. Statement of actions of the transactions occurred
 
+const todaysTransactions = (day) => {
+day = prompt(`What day would you like to see the transactions from?`)
+if (day == `monday`) {
+alert(`£20 withdrawn - Tesco`)
+}
+else if (day == `tuesday`) {
+alert (`£100 withdrawn - Sky Bets`)
+}
+else if (day == `wednesday`) {
+alert (`£4 withdrawn - Morrisons`)
+}
+else if (day == `thursday`) {
+alert (`£4.99 withdrawn - Starbucks`)
+}
+else if (day == `friday`) {
+alert (`£1,500 deposited - TalkTalk`) 
+}
+else if (day == `saturday`) {
+alert (`£5 - Cal`)
+}
+else if (day == `sunday`) {
+alert (`£70 withdrawn - Church`)
+}
+else {
+alert (`ERROR`)
+}
+}
+todaysTransactions()
+
 /* 8. Exchange currency - you can pick your currency. 
 If a user wants to exchange £100 and the conversion is 1.5, 
 then they’d get 150 of another currency. */
