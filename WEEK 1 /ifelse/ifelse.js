@@ -1,17 +1,3 @@
-// CHALLENGE - Even number
-let oneVariable = 2
-let twoVariable = 2
-let result = oneVariable + twoVariable
-let multiply = oneVariable * twoVariable
-
-if (result % 2 == 0) { // % 2 == 0 means no remainders, meaning its eve, not odd
-   console.log(result)
-}
-else if (multiply) {
-    console.log(multiply)
-}
-
-// CHALLENGE
 let doorOpen = true
 let doorCatFlap = true
 // if else statments
@@ -31,7 +17,7 @@ else{ // if nothing else matched then do this
     console.log("Buy a door and Cat flap") // data output if no variables are the same
 }
 
-// CHALLENGE - on or off
+// CHALLENGE - turn lights on or off
 lightOn = true
 
 if (lightOn == true) {
@@ -59,6 +45,7 @@ else {
     console.log(password)
 }
 
+// CHALLENGE - create an if statement that checks the age of a person
 let age = 65
 
 if (age < 18) {
@@ -87,6 +74,20 @@ console.log(pass)
 }
 }
 password3("Helloman")
+
+/* 
+- Challenge 2:
+Create a variable called num.
+Check if the variable is divisible by 3 or 5. If it is log “This number is divisible by 3 or 5” to the console. 
+Otherwise log “This number is not divisible by 3 or 5”.
+*/
+
+let num = 6
+if(num % 5 == 0 || num % 3 == 0)
+console.log(`${num} is divisble by 3 or 5`)
+else {
+    console.log(`${num} is not divisble by 3 or 5`)
+}
 
 /*
 - Challenge 3:
@@ -171,16 +172,44 @@ for(i = longString.length; i > 0; i--) {
 longString1 = longString.lastIndexOf('i')
 console.log(longString1)
 
-/* - Challenge 7:
+/* 
+- Challenge 7:
 Create a variable called word that takes a string.
 Create an if statement that checks if the last letter is the same as the first. 
 If it is return true, otherwise return false.
 */
 
-let word = 'AllA'
-if (word.length[0] = word.length[-1]) {
+let word = "worw"
+let firstLetter = word.charAt(0);
+let lastLetter = word.charAt(3)
+if (firstLetter == lastLetter) {
     console.log(true)
 }
 else {
     console.log(false)
 }
+
+/* 
+- Challenge 8:
+Create two variables called num1 and num2.
+Create an if statement that checks if the result of the sum is even. 
+If it is return the number, otherwise return the numbers multiplied together.
+*/
+
+let num1 = 9
+let num2 = 6
+
+if (num1 % 2 == 0 && num2 % 2 == 0) {
+console.log(num1 + num2)
+}
+else {
+console.log(num1 * num2)
+}
+
+/* 
+- Challenge 9:
+naughts and crosses board
+Write an if statement that checks if the items on the top row meet a winning condition. 
+So the top row are all ‘o’s or all ‘x’s.
+*/
+
