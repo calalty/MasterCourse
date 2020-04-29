@@ -15,3 +15,4 @@ This is my 12 weeks at CodeNation:
 Projects:
 
 - [ ] Cash Machine
+- [ ] Zen Garden

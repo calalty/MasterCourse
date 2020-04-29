@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+[role="article"] a:hover {
+    text-decoration: underline;
+}
+
+.intro h2 {
+    font-style: italic; /* changes font style for 'The Beauty of CSS Design'*/
+    font-family: 'Satisfy', cursive; /* changes font for 'The Beauty of CSS Design'*/
+    color: rgb(226, 226, 226); /* changes color for 'The Beauty of CSS Design'*/
+    background: url(../img/zen.svg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center; /* changes text to center of page */
+    position: relative;
+    right: -25px;
+    justify-content: space-evenly; /* spaces text evenly */
+    letter-spacing: 0em;
+    word-spacing: 0.1em;
+    padding: 0em;
+    font-size: 1.25em;
+}
+header {
+    background: url(/img/huntington.png);
+    padding:3em;
+    background-size: auto;
+    border: none;
+    margin: -2%;
+    margin-bottom: 5%;
+}
+.intro h1 {
+    font-weight: lighter;
+    font-size: 2.25em;
+    letter-spacing: 0.025em;
+    align-items: middle;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    text-shadow:
+    4px 4px 2px rgb(0, 0, 0);
+}
+
+.summary p {
+    position: relative; 
+	top: -50px;
+}
+
+.main.supporting {
+    position: relative;
+    margin-top: 5%;
+}
+
+.benefits h3 {
+    position: relative; 
+        top: 15px;
+    margin-top: -3%;
+    }
+
+.participation h3 {
+    position: relative; 
+        top: 15px;
+    }
+.participation p {
+    color: white;
+    text-decoration: none;
+}
+
+.participation a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.participation {
+    background: url(/img/bamboo.png); background-color: #84a98c;
+    padding: 0em;
+    margin-top: 5%;
+}
+
+.benefits {
+    background: url(/img/bamboo.png); background-color: #84a98c;
+    padding-bottom: 0.25em;
+    margin-top: 2.5%;
+}
+
+.benefits p {
+    color: white;
+}
+
+[role="contentinfo"] a:hover {
+    text-decoration: underline;
+}
+
+.requirements > [role="contentinfo"] {
+    background-color: #84a98c;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+
+.requirements a {
+    font-family: 'Satisfy', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+.requirements {
+    margin-top: 5%;
+    font-family: 'Satisfy', cursive;
+}
+
+[footer] a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: content-box;
+    background-color: #52796f;
+    text-align: center;
+    font-size: 2em;
+    word-spacing: 1em;
+    color: white;
+    padding: -2.5em;
+    margin-top: -2.5%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
