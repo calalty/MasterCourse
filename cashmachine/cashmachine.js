@@ -1,3 +1,9 @@
+// HTML MENU for CashMachine
+
+
+
+
+
 
 
 // 1. Ability to accept a user pin (pre-defined inside of parameters to start with)
@@ -28,7 +34,7 @@ const checkPin = (pin) => {
 	else {
     (pinNumber1 != pin)
     attempts -= 1
-    console.log(`You have ${attempts+1} attempts left.`)
+    console.log(`You have ${attempts-1} attempts left.`)
 	}
 }
 checkPin(13945)
@@ -96,13 +102,12 @@ deposit(60)
 
 // 6. Check balance 
 
-const balance = (checkBalance="£500,000") => {
+const balance1 = (checkBalance="£500,000") => {
     if (checkBalance) {
         console.log(checkBalance)
     return
     }
 }
-balance()
 
 // 7. Statement of actions of the transactions occurred
 
