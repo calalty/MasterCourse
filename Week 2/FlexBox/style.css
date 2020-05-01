@@ -7,13 +7,17 @@
     .container {
     display: flex;
     /* min-height: 100vh;
-    /* flex-direction: row;
-    flex-wrap: wrap; no-wrap */
-    /* justify-content: space-around; */
-    /* justify-content: space-between; */
-    /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    justify-content: space-between;
     flex-start, flex-end, space-between, space-around and center, space-evenly
-    */
+    height: 100vh
+    align-items: baseline; baseline is bottom of each of text
+    height: 100vh;
+    border: 10px solid rebeccapurple;
+    align-content: stretch;
+    text-decoration: line-through; */
     }
     
     .box {
@@ -21,11 +25,13 @@
     font-size: 100px;
     text-align: center;
     padding: 15px;
-    /* width: 50%; remember % */
+    /* flex: 1; gives all sectors even space */
+    /* width: 100%; */
     }
 
 .box1 {
     background-color: blueviolet;
+    /* padding: 200px; */
 }
 
 .box2 {
@@ -35,10 +41,12 @@
 
 .box3 {
     background-color: firebrick;
+    /* font-size: medium; */
 }
 
 .box4 {
     background-color:green;
+    /* font-size: x-large; */
 }
 
 .box5 {

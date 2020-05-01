@@ -1,0 +1,167 @@
+/*
+inline css - styling particular tag
+internal css - inside the file youre styling but inside a style tag insode the head tag
+external css - external css file
+*/
+
+/* 
+class, tag name (h1, p, etc), id
+
+selector {
+    something a value;
+}
+*/
+
+/* Font URL's */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
+
+/* APPLIES TO EVERYTHING */
+* {
+    font-family: 'Baloo Paaji 2', cursive;
+    background-color: #F4F1DE;
+    margin: 0;
+    padding: 0;
+    /* 
+    key value pair!
+    margin is the key
+    0 is the value
+     */
+}
+
+/* Home / About / Projects */
+.navbar {
+    background-color: #C3C3C3;
+    /* key             value */
+    align-items: left;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    /* 30px = top bottom.... 20px left right */
+}
+
+/* applies to unordered list */
+.navbar ul li { /* targetting .navbar class with ul li to be modified */
+    background-color: #C3C3C3;
+    color: #F4F1DE;
+    list-style-type: none;
+    display: inline-block; 
+}
+
+/* applies to text within list */
+.navbar li a { /* selector */
+    background-color: #C3C3C3;
+    color: #F4F1DE;
+    text-decoration: none;
+    padding: 15px 5px; /* Top and Bottom and Left to Right */
+}
+
+/* applies to h1 in .maincontent class */
+.maincontent h1 {
+    color: #949396;
+    align-items: middle;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    /* 30px = top bottom.... 20px left right */
+}
+
+/* applies to h2 in .maincontent class */
+.maincontent h2 {
+    color: #949396;
+    align-items: middle;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    /* 30px = top bottom.... 20px left right */
+}
+
+/* applies to p in .maincontent class */
+.maincontent p {
+    color: #949396;
+    align-items: middle;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    /* 30px = top bottom.... 20px left right */
+}
+
+/* applies to h3 in .fave class */
+.fave h3 {
+    color:#949396;
+    align-items: middle;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    /* 30px = top bottom.... 20px left right */
+}
+
+/* applies to ul li in .fave class */
+.fave ul li {
+    color: #949396;
+    align-items: middle;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    /* 30px = top bottom.... 20px left right */
+}
+
+.threecolumns {
+    color: #949396;
+    /* text-align moves the text inside the element. */
+    float: right; /* float moves the element itself */
+    width: 31.33%;
+    padding: 10px;
+}
+
+.columns:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .threecolumns {
+        width: 100%;
+}
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 25px 50px; /* top & bottom, left & right */
+    padding: 50px; /* everything*/
+    padding: 50px 25px 30px; /* top, right & left, bottom */
+    padding: 50px 25px 30px 25px; /* top, right, bottom, left */
+}
+
+.columns p{
+    font-size: small;
+}
+
+.columns h2 {
+    font-size: medium;
+    border-spacing: 10em;
+}
+
+.footer {
+    color: #949396;
+}
+
+
+
+/* 
+vh
+vw
+%
+em
+cm
+pt
+*/
+
+/* 
+
+on the about page, please add content...
+
+including h1, h2, p and lists....
+
+*/
+
