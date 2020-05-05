@@ -12,6 +12,7 @@ const input = document.getElementById("input")
 // For loops allow to go through text more quickly 
 
 const paragraphs = document.getElementsByTagName("p")
+
 for (i = 0; i < 3; i++) {
 paragraphs[1].style.color = "red"
 }
@@ -39,13 +40,15 @@ button.addEventListener("click", () => {
 // Targets all small headings (h2)
 
 const smallerHeading = document.getElementsByClassName("smallerHeading")
+
 for (i = 0; i < smallerHeading.length; i++) {
     smallerHeading[1].style.color = "pink"
 }
 
 // .querySelectorAll selects all "li"
 
-const list = document.querySelectorAll("li");
+const list = document.querySelectorAll("li")
+
 for (i = 0; i < list.length; i++) {
     list[1].style.color = "orange"
 }
